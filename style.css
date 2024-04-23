@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgba(130, 196, 128, 0.2);
+    background-image: url();
+
+}
+
+#main-div{
+    margin: 0 auto;
+}
+
+/* Text Editor Coding */
+
+header{
+    width: 100%;
+    height: auto;
+    background-color: blue;
+    color: white;
+    font-size: 30px;
+}
+
+#code_box{
+    margin: 20px auto;
+    width: 90%;
+    height: 500px;
+}
+
+#code{
+    width: 100%;
+    height: 480px;
+    border: none;
+    padding-left: 10px;
+    font-size: 18px;
+    outline: none;
+}
+
+#result{
+    width: 100%;
+    height: 93%;
+    overflow: scroll;
+    padding: 15px;
+}
+
+#show{
+    display: none;
+    margin: 20px auto;
+    width: 90%;
+    height: 500px;
+}
+
+#run_btn{
+        padding: 10px;
+        font-weight: bold;
+        margin: 10px;   
+}
+
+#icon{
+    display: none;
+    padding: 10px;
+    font-weight: bold;
+    margin: 10px;
+}
